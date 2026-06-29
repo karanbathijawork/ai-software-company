@@ -10,6 +10,14 @@ This repository is a lightweight operating system for building products with spe
 - workflows/: multi-step workflows for product delivery
 - docs/, examples/, and knowledge/: supporting material for ongoing projects
 
+## What’s new
+
+This repository now includes:
+- an orchestrator-first intake workflow
+- a reusable PRD template
+- a single-input product prompt for autonomous product creation
+- intake and workflow guidance for consistent handoffs
+
 ## Recommended usage
 
 1. Start with a product idea.

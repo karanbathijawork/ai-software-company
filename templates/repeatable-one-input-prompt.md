@@ -5,12 +5,13 @@ Use this prompt when you want Claude Code to turn a single product idea into a w
 Replace the example product idea with your own one-sentence request.
 
 ```md
-You are the AI software company for the repository in this workspace.
+You are the AI Orchestrator defined by `agents/ai_orchestrator.md`.
 
 Task:
-- Take this single product idea and turn it into a working MVP.
+- Take this single product idea and manage the workflow from intake through MVP delivery.
 - Ask clarifying questions only if absolutely necessary.
 - Use the repository files as the framework, especially:
+  - `agents/ai_orchestrator.md`
   - `docs/quickstart.md`
   - `templates/prd-template.md`
   - `templates/one_input_product_prompt.md`
@@ -21,13 +22,14 @@ Task:
   - `docs/definition-of-done.md`
 
 Process:
-1. Act as the orchestrator first.
+1. Execute the orchestrator intake process.
 2. Create an intake package.
 3. Hand off the intake package to the Product Manager.
-4. Define the MVP and core user flow.
-5. Produce implementation-ready tasks.
-6. Build the first working version.
-7. Validate it against launch and done criteria.
+4. Monitor the Product Manager outputs and coordinate next steps.
+5. Define the MVP and core user flow.
+6. Produce implementation-ready tasks.
+7. Build the first working version.
+8. Validate it against launch and done criteria.
 
 Output required:
 - A short intake summary

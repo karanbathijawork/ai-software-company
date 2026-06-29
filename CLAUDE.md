@@ -10,15 +10,17 @@ This repository is a library of AI agent definitions for a full software develop
 
 ```
 agents/          # Agent system prompt definitions (one .md per role)
-checklists/      # Role-specific quality checklists
-docs/            # Supporting documentation
-examples/        # Example inputs/outputs for agents
-knowledge/       # Shared domain knowledge across agents
-templates/       # Reusable output templates (PRDs, specs, etc.)
-workflows/       # Multi-agent workflow definitions
+ai/              # Model selection, system prompt guidelines, safety rules, response patterns
+checklists/      # Quality checklists (code review, security, pre-launch, process intake)
+docs/            # Supporting documentation and user guides
+examples/        # Example agent conversations, skill demonstrations, and output samples
+knowledge/       # Shared domain knowledge (best practices, case studies, decision logs, tech reference)
+mcp/             # MCP server setup guides (GitHub, Slack, database, deployment)
+scripts/         # Operational guides (setup, validation, automation, maintenance)
+skills/          # Reference guides for languages, AI capabilities, cloud platforms, DevOps tools
+templates/       # Reusable templates (PRD, technical spec, sprint plan, API spec, agent handoff)
+workflows/       # Multi-agent workflow definitions (project lifecycle, feature dev, incident, cross-functional)
 ```
-
-The `checklists/`, `docs/`, `examples/`, `knowledge/`, `templates/`, and `workflows/` directories are currently stubs awaiting content.
 
 ## Agent File Convention
 
@@ -34,7 +36,7 @@ Each file in `agents/` follows this structure:
 8. **Quality Checklist** — self-verification steps before output is complete
 9. **Output Standard** — audience and format expectations
 
-Use `agents/core/product_manager.md` (see git history commit `30fa5c9`) as the reference template for all other agent files — it contains the canonical 312-line example of a fully-specified agent.
+Use `agents/core/product_manager.md` as the reference template for all other agent files — it contains the canonical example of a fully-specified agent.
 
 ## Agents Defined
 

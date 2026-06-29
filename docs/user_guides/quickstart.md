@@ -87,7 +87,7 @@ Look for these results from the AI:
 - run instructions
 - a launch readiness check
 
-## Step 7: Validate the first version
+## Step 8: Validate the first version
 
 Open and use:
 - `checklists/pre_launch/launch-checklist.md`
@@ -99,7 +99,7 @@ Check that the product:
 - can be run or deployed
 - meets the basic launch criteria
 
-## Step 8: Repeat for the next idea
+## Step 9: Repeat for the next idea
 
 For each new product, start with a fresh clone of this repository or a copied template folder.
 

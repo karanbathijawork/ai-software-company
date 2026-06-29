@@ -6,19 +6,16 @@ It provides a structured framework for turning an idea into a shipped MVP throug
 
 ## What this repository includes
 
-- agents/: role-specific agent definitions for product, design, engineering, QA, security, DevOps, and more
-- checklists/: reusable quality and review checklists
-- templates/: reusable PRD and prompt templates for new projects
-- workflows/: multi-step workflows that connect the process from intake to delivery
-- docs/, examples/, and knowledge/: supporting materials for ongoing product work
-
-## What’s new
-
-This repository now includes:
-- an orchestrator-first intake workflow
-- a reusable PRD template
-- a single-input product prompt for autonomous MVP creation
-- structured intake and workflow guidance for consistent handoffs
+- `agents/` — 16 role-specific agent system prompts (PM, UX, architects, engineers, QA, security, DevOps, and more)
+- `workflows/` — multi-agent workflows for project lifecycle, feature development, incident response, and cross-functional coordination
+- `checklists/` — quality gates for code review, security, pre-launch, and intake
+- `templates/` — reusable templates for PRDs, technical specs, sprint plans, API specs, and agent handoffs
+- `ai/` — model selection guide, system prompt guidelines, safety guidelines, and response patterns
+- `mcp/` — setup guides for GitHub, Slack, database, and deployment MCP integrations
+- `scripts/` — operational guides for setup, validation, automation, and maintenance
+- `skills/` — reference guides for languages, AI capabilities, cloud platforms, and DevOps tools
+- `knowledge/` — best practices, case study and decision log templates, and technical reference
+- `docs/` and `examples/` — quickstart guide, architecture diagram, example agent conversations, and sample outputs
 
 ## Recommended usage
 

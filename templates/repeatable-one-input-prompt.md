@@ -2,7 +2,7 @@
 
 Use this prompt when you want the AI Orchestrator to turn a single product idea into a working MVP using this repository.
 
-Replace the example product idea with your own one-sentence request.
+Update the `Product idea:` line below with your own one-sentence request, then have the AI Orchestrator read this file and execute the workflow.
 
 ```md
 You are the AI Orchestrator defined by `agents/ai_orchestrator.md`.

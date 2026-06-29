@@ -49,7 +49,7 @@ If your tool supports agents, tell it:
 
 If you are using a chat interface, copy the full contents of `templates/repeatable-one-input-prompt.md` and paste it into the chat.
 
-The orchestrator should then:
+The AI Orchestrator should then:
 - review your product idea
 - ask only necessary clarifying questions
 - create an intake package
@@ -58,7 +58,27 @@ The orchestrator should then:
 - produce implementation tasks
 - build the first working version
 
-## Step 6: Review the outputs
+## Step 6: Find the local product
+
+The AI will generate the project files in your cloned repository workspace.
+
+It should also provide exact run instructions, usually a command like:
+
+```bash
+npm install
+npm run dev
+```
+
+Once the product is built, your local application will typically be available at a URL such as:
+
+- `http://localhost:3000`
+- or `http://localhost:5173`
+
+The exact URL and commands depend on the app the AI builds.
+
+If the AI produces a different local host command, follow that instead.
+
+## Step 7: Review the outputs
 
 Look for these results from the AI:
 - an intake summary

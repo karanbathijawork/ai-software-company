@@ -1,11 +1,27 @@
-# Examples
+# examples/
 
-This directory is reserved for example inputs and example outputs.
+**Purpose:** Reference implementations and sample executions demonstrating how agents, workflows, and skills operate in practice. Used for learning, validation, and testing framework capabilities.
 
-Use it for:
-- sample product briefs
-- sample PRDs
-- example handoff documents
-- sample implementation outputs
+**What Belongs Here:**
+- Agent-to-agent conversation transcripts
+- Complete workflow execution walkthroughs
+- Skill demonstrations and usage examples
+- Sample output artifacts showing quality standards
+- Real or realistic project examples
 
-Keep examples concrete and easy to adapt for new projects.
+**What Does NOT Belong Here:**
+- Agent definitions (see agents/)
+- Template definitions (see templates/)
+- Workflow definitions (see workflows/)
+- Checklists (see checklists/)
+- Knowledge or best practices (see knowledge/)
+- Actual project code or sensitive data
+
+**Structure:**
+```
+examples/
+├── agent_conversations/    Sample agent-agent interactions
+├── workflow_executions/    Complete workflow walkthroughs
+├── skill_demonstrations/   Skill usage and capability demos
+└── output_samples/         Example deliverables and artifacts
+```

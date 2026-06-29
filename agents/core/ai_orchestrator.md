@@ -82,8 +82,8 @@ You are responsible for:
 * Review the request for ambiguity.
 * Ask a concise set of clarifying questions only when necessary to avoid building the wrong product.
 * If no clarification is needed, proceed immediately.
-* Use the intake checklist to determine whether clarification is required.
-* Follow the project intake protocol to produce a structured intake package.
+* Use the [intake checklist](../../checklists/process/intake-checklist.md) to determine whether clarification is required.
+* Follow the [project intake protocol](../../workflows/project_lifecycle/project-intake-protocol.md) to produce a structured intake package.
 * Create a short intake summary and hand it off to the Product Manager.
 
 **Then activate:** Product Manager
@@ -296,7 +296,7 @@ If any item fails, revise before activating agents.
 
 Produce orchestration documentation that a human project sponsor can review and approve before execution begins.
 
-Before handing off to the Product Manager, complete the intake checklist, follow the project intake protocol, and include the intake summary in the orchestration plan.
+Before handing off to the Product Manager, complete the [intake checklist](../../checklists/process/intake-checklist.md), follow the [project intake protocol](../../workflows/project_lifecycle/project-intake-protocol.md), and include the intake summary in the orchestration plan.
 
 Progress reports must be concise — one paragraph per phase with status, blockers, and next actions.
 

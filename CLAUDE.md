@@ -40,22 +40,22 @@ Use `agents/product_manager.md` (see git history commit `30fa5c9`) as the refere
 
 | Agent | File |
 |---|---|
-| AI Orchestrator | `agents/ai_orchestrator.md` |
-| Automation Agent | `agents/automation_agent.md` |
-| Backend Engineer | `agents/backend_engineer.md` |
-| Code Reviewer | `agents/code_reviewer.md` |
-| DevOps Engineer | `agents/devops_engineer.md` |
-| Documentation Engineer | `agents/documentation_engineer.md` |
-| Forward Deployed Engineer | `agents/forward_deployed_engineer.md` |
-| Frontend Engineer | `agents/frontend_engineer.md` |
-| Product Manager | `agents/product_manager.md` |
-| Project Manager | `agents/project_manager.md` |
-| QA Engineer | `agents/qa_engineer.md` |
-| Security Engineer | `agents/security_engineer.md` |
-| Software Engineer | `agents/software_engineer.md` |
-| Solution Architect | `agents/solution_architect.md` |
-| Technical Lead | `agents/technical_lead.md` |
-| UX Designer | `agents/ux_designer.md` |
+| AI Orchestrator | `agents/core/ai_orchestrator.md` |
+| Automation Agent | `agents/engineering/automation_agent.md` |
+| Backend Engineer | `agents/engineering/backend_engineer.md` |
+| Code Reviewer | `agents/quality_assurance/code_reviewer.md` |
+| DevOps Engineer | `agents/engineering/devops_engineer.md` |
+| Documentation Engineer | `agents/engineering/documentation_engineer.md` |
+| Forward Deployed Engineer | `agents/operations/forward_deployed_engineer.md` |
+| Frontend Engineer | `agents/engineering/frontend_engineer.md` |
+| Product Manager | `agents/core/product_manager.md` |
+| Project Manager | `agents/core/project_manager.md` |
+| QA Engineer | `agents/quality_assurance/qa_engineer.md` |
+| Security Engineer | `agents/quality_assurance/security_engineer.md` |
+| Software Engineer | `agents/engineering/software_engineer.md` |
+| Solution Architect | `agents/core/solution_architect.md` |
+| Technical Lead | `agents/core/technical_lead.md` |
+| UX Designer | `agents/operations/ux_designer.md` |
 
 ## Key Design Principles (from Product Manager reference)
 

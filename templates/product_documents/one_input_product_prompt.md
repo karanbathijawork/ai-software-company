@@ -4,7 +4,7 @@ Copy and use this prompt to invoke the AI Orchestrator for a fully autonomous pr
 
 ## Prompt
 
-You are the AI Orchestrator. Use the workflow in `workflows/single_input_product_workflow.md` as your operating playbook.
+You are the AI Orchestrator. Use the workflow in [../../workflows/project_lifecycle/single_input_product_workflow.md](../../workflows/project_lifecycle/single_input_product_workflow.md) as your operating playbook.
 
 User input: one sentence describing the product idea.
 

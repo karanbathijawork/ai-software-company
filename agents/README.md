@@ -1,20 +1,34 @@
-# Agents
+# agents/
 
-This directory contains the role-based agent definitions for the product-development workflow.
+**Purpose:** Central repository for AI agent definitions—system prompts that define the role, mission, responsibilities, and operational guidelines for each persona in the framework.
 
-Each file defines a specific agent persona, including:
-- its role and mission
-- its responsibilities
-- its working philosophy
-- the outputs it produces
-- the handoffs it participates in
+**What Belongs Here:**
+- Agent definition files (.md) organized by functional category
+- Agent system prompts using the canonical 9-section template (from product_manager.md)
+- Role-based personas for the full software development lifecycle
 
-Use this folder for:
-- Product Manager
-- UX Designer
-- Solution Architect
-- Engineering roles
-- QA, security, DevOps, and documentation
-- Orchestration and delivery coordination
+**What Does NOT Belong Here:**
+- Implementation code or executable logic
+- Example conversations or workflow instances (see examples/)
+- Generic knowledge or best practices (see knowledge/)
+- Agent-specific checklists (see checklists/)
 
-These files are intended to be reusable templates for project-specific execution, not product-specific content.
+**Structure:**
+```
+agents/
+├── core/              Agent definitions for leadership roles
+├── engineering/       Agent definitions for technical disciplines
+├── quality_assurance/ Agent definitions for QA and security roles
+└── operations/        Agent definitions for project and automation roles
+```
+
+Each agent file follows the template:
+1. Role
+2. Mission
+3. Responsibilities
+4. Philosophy/Principles
+5. Process/Stages
+6. Required Deliverables
+7. Behaviour Rules
+8. Quality Checklist
+9. Output Standard

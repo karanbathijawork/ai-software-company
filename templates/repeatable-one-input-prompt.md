@@ -1,6 +1,6 @@
 # Repeatable One-Input Product Prompt
 
-Use this prompt when you want Claude Code to turn a single product idea into a working MVP using this repository.
+Use this prompt when you want the AI Orchestrator to turn a single product idea into a working MVP using this repository.
 
 Replace the example product idea with your own one-sentence request.
 

@@ -1,8 +1,8 @@
 # Product Requirements Document Template
 
-Use this file as the single source of truth for a new product initiative. Claude Code should use this document to generate a concise PRD, define an MVP, and hand off implementation work without needing further input from the user.
+Use this file as the single source of truth for a new product initiative. The AI Orchestrator should use this document to generate a concise PRD, define an MVP, and hand off implementation work without needing further input from the user.
 
-## Instructions for Claude Code
+## Instructions for the AI Orchestrator
 
 - Treat this file as the authoritative project brief.
 - If any section is incomplete, make a reasonable assumption and clearly label it as an assumption.

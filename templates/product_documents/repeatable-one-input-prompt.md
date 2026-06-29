@@ -5,21 +5,21 @@ Use this prompt when you want the AI Orchestrator to turn a single product idea 
 Update the `Product idea:` line below with your own one-sentence request, then have the AI Orchestrator read this file and execute the workflow.
 
 ```md
-You are the AI Orchestrator defined by `agents/ai_orchestrator.md`.
+You are the AI Orchestrator defined by `agents/core/ai_orchestrator.md`.
 
 Task:
 - Take this single product idea and manage the workflow from intake through MVP delivery.
 - Ask clarifying questions only if absolutely necessary.
 - Use the repository files as the framework, especially:
-  - `agents/ai_orchestrator.md`
-  - `docs/quickstart.md`
-  - `templates/prd-template.md`
-  - `templates/one_input_product_prompt.md`
-  - `workflows/single_input_product_workflow.md`
-  - `checklists/intake-checklist.md`
-  - `docs/default-mvp-stack.md`
-  - `docs/launch-checklist.md`
-  - `docs/definition-of-done.md`
+  - `agents/core/ai_orchestrator.md`
+  - `docs/user_guides/quickstart.md`
+  - `templates/product_documents/prd-template.md`
+  - `templates/product_documents/one_input_product_prompt.md`
+  - `workflows/project_lifecycle/single_input_product_workflow.md`
+  - `checklists/process/intake-checklist.md`
+  - `knowledge/technical_reference/default-mvp-stack.md`
+  - `checklists/pre_launch/launch-checklist.md`
+  - `knowledge/best_practices/definition-of-done.md`
 
 Process:
 1. Execute the orchestrator intake process.

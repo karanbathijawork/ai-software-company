@@ -20,10 +20,9 @@ This repository is your template. Clone it again for every new product or projec
 1. Open the `ai-software-company` folder in a file browser or editor.
 2. Confirm these files exist:
    - `README.md`
-   - `docs/quickstart.md`
-   - `templates/repeatable-one-input-prompt.md`
-   - `workflows/single_input_product_workflow.md`
-   - `checklists/intake-checklist.md`
+   - `docs/user_guides/quickstart.md`
+   - `templates/product_documents/repeatable-one-input-prompt.md`
+   - `checklists/process/intake-checklist.md`
 
 ## Step 3: Choose your product idea
 
@@ -35,7 +34,7 @@ Example:
 
 ## Step 4: Update the prompt file
 
-1. Open `templates/repeatable-one-input-prompt.md`.
+1. Open `templates/product_documents/repeatable-one-input-prompt.md`.
 2. Find the line that starts with `Product idea:`.
 3. Replace the example sentence with your own product idea.
 
@@ -45,9 +44,9 @@ Now the goal is to have the `ai_orchestrator` agent read the prompt file and exe
 
 If your tool supports agents, tell it:
 
-- “Run the AI Orchestrator and have it read `templates/repeatable-one-input-prompt.md`.”
+- "Run the AI Orchestrator and have it read `templates/product_documents/repeatable-one-input-prompt.md`."
 
-If you are using a chat interface, copy the full contents of `templates/repeatable-one-input-prompt.md` and paste it into the chat.
+If you are using a chat interface, copy the full contents of `templates/product_documents/repeatable-one-input-prompt.md` and paste it into the chat.
 
 The AI Orchestrator should then:
 - review your product idea
@@ -91,8 +90,8 @@ Look for these results from the AI:
 ## Step 7: Validate the first version
 
 Open and use:
-- `docs/launch-checklist.md`
-- `docs/definition-of-done.md`
+- `checklists/pre_launch/launch-checklist.md`
+- `knowledge/best_practices/definition-of-done.md`
 
 Check that the product:
 - has a working core workflow
@@ -110,6 +109,6 @@ That keeps each product clean and makes the process easy to repeat.
 
 ### If you need help
 
-If anything is confusing, start by reading `README.md` and `docs/quickstart.md` again.
+If anything is confusing, start by reading `README.md` and `docs/user_guides/quickstart.md` again.
 
 The repo is designed so non-technical users can use the prompt file and the AI Orchestrator to build the first product with minimal setup.

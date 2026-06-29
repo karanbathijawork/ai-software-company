@@ -34,7 +34,7 @@ Each file in `agents/` follows this structure:
 8. **Quality Checklist** — self-verification steps before output is complete
 9. **Output Standard** — audience and format expectations
 
-Use `agents/product_manager.md` (see git history commit `30fa5c9`) as the reference template for all other agent files — it contains the canonical 312-line example of a fully-specified agent.
+Use `agents/core/product_manager.md` (see git history commit `30fa5c9`) as the reference template for all other agent files — it contains the canonical 312-line example of a fully-specified agent.
 
 ## Agents Defined
 

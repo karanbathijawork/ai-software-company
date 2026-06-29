@@ -1,70 +1,95 @@
 # Quick Start for Your First Product
 
-This guide gives you the shortest path from idea to first working MVP using this repository.
+This guide gives you the simplest path from idea to a working MVP using this repository.
 
-## 1. Choose your product idea
+## Step 1: Clone the repository
 
-Pick one sentence that describes the product you want to build.
+1. Go to your GitHub repo page.
+2. Click `Code` and copy the HTTPS URL.
+3. On your computer, open a terminal or use GitHub Desktop.
+4. Run this command or use the clone option:
+
+```bash
+git clone https://github.com/karanbathijawork/ai-software-company.git
+```
+
+This repository is your template. Clone it again for every new product or project idea.
+
+## Step 2: Open the repo folder
+
+1. Open the `ai-software-company` folder in a file browser or editor.
+2. Confirm these files exist:
+   - `README.md`
+   - `docs/quickstart.md`
+   - `templates/repeatable-one-input-prompt.md`
+   - `workflows/single_input_product_workflow.md`
+   - `checklists/intake-checklist.md`
+
+## Step 3: Choose your product idea
+
+Write one sentence that describes the product you want to build.
 
 Example:
 - “Build a simple habit tracker for busy professionals.”
+- “Create a meal planner for people who want to eat healthier.”
 
-## 2. Create a project brief
+## Step 4: Update the prompt file
 
-Copy the template from templates/prd-template.md and fill in the core sections.
+1. Open `templates/repeatable-one-input-prompt.md`.
+2. Find the line that starts with `Product idea:`.
+3. Replace the example sentence with your own product idea.
 
-At minimum include:
-- product name
-- problem statement
-- target user
-- MVP scope
-- success metric
+## Step 5: Use the AI Orchestrator
 
-## 3. Use the orchestrator workflow
+Now the goal is to have the `ai_orchestrator` agent read the prompt file and execute the workflow.
 
-Use the workflow in workflows/single_input_product_workflow.md as your operating guide.
+If your tool supports agents, tell it:
 
-The orchestrator should:
-- interpret the idea
+- “Run the AI Orchestrator and have it read `templates/repeatable-one-input-prompt.md`.”
+
+If you are using a chat interface, copy the full contents of `templates/repeatable-one-input-prompt.md` and paste it into the chat.
+
+The orchestrator should then:
+- review your product idea
 - ask only necessary clarifying questions
 - create an intake package
 - hand off to the Product Manager
-
-## 4. Use the AI Orchestrator prompt
-
-Open `templates/repeatable-one-input-prompt.md` and update the `Product idea:` line with your own request.
-
-Have the `ai_orchestrator` agent read this file and execute the workflow. That prompt tells the orchestrator to:
-- perform the intake process
-- create the intake package
-- define the MVP
+- define the MVP and core user flow
 - produce implementation tasks
 - build the first working version
 
-## 5. Use the repository as a template
+## Step 6: Review the outputs
 
-For every new product or project idea, clone this repository and reuse the repo templates.
+Look for these results from the AI:
+- an intake summary
+- a product brief
+- a prioritized task list
+- an implementation plan
+- run instructions
+- a launch readiness check
 
-That ensures each product starts with the same workflow, guidance, and quality checks.
+## Step 7: Validate the first version
 
-## 6. Start with the smallest useful version
+Open and use:
+- `docs/launch-checklist.md`
+- `docs/definition-of-done.md`
 
-Do not try to build everything at once.
+Check that the product:
+- has a working core workflow
+- is documented clearly
+- can be run or deployed
+- meets the basic launch criteria
 
-## 5. Start with the smallest useful version
+## Step 8: Repeat for the next idea
 
-Do not try to build everything at once.
+For each new product, start with a fresh clone of this repository or a copied template folder.
 
-Focus on:
-- one clear user problem
-- one core workflow
-- one measurable outcome
+That keeps each product clean and makes the process easy to repeat.
 
-## 6. Review and iterate
+---
 
-Once the first version is running, review:
-- whether the core user flow works
-- whether the MVP is actually useful
-- what should be cut or improved next
+### If you need help
 
-If you want the fastest possible path, start with a very small web app and focus on one core use case.
+If anything is confusing, start by reading `README.md` and `docs/quickstart.md` again.
+
+The repo is designed so non-technical users can use the prompt file and the AI Orchestrator to build the first product with minimal setup.

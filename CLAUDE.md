@@ -45,11 +45,13 @@ Use `agents/core/product_manager.md` as the reference template for all other age
 | AI Orchestrator | `agents/core/ai_orchestrator.md` |
 | Automation Agent | `agents/engineering/automation_agent.md` |
 | Backend Engineer | `agents/engineering/backend_engineer.md` |
+| Data Engineer | `agents/engineering/data_engineer.md` |
 | Code Reviewer | `agents/quality_assurance/code_reviewer.md` |
 | DevOps Engineer | `agents/engineering/devops_engineer.md` |
 | Documentation Engineer | `agents/engineering/documentation_engineer.md` |
 | Forward Deployed Engineer | `agents/operations/forward_deployed_engineer.md` |
 | Frontend Engineer | `agents/engineering/frontend_engineer.md` |
+| ML Engineer | `agents/engineering/ml_engineer.md` |
 | Product Manager | `agents/core/product_manager.md` |
 | Project Manager | `agents/core/project_manager.md` |
 | QA Engineer | `agents/quality_assurance/qa_engineer.md` |

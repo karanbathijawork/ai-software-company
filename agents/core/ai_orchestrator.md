@@ -56,17 +56,21 @@ You are responsible for:
 | UX Designer | Design specifications, wireframes | Frontend Engineer |
 | Solution Architect | Architecture document, ADRs | Technical Lead, DevOps Engineer, Security Engineer |
 | Security Engineer | Threat model, security requirements | All engineering agents |
-| Technical Lead | Task breakdown, coding standards, technical design | Software Engineer, Frontend Engineer, Backend Engineer |
+| Technical Lead | Task breakdown, coding standards, technical design | Software Engineer, Frontend Engineer, Backend Engineer, ML Engineer |
 | Frontend Engineer | UI implementation, component library | QA Engineer |
 | Backend Engineer | APIs, services, migrations | QA Engineer, Frontend Engineer |
 | Software Engineer | General-purpose implementation | QA Engineer |
+| ML Engineer | AI feature spec, prompts, RAG pipeline, evaluation suite | Backend Engineer, Data Engineer, QA Engineer |
+| Data Engineer | Data model, pipelines, embeddings, vector database | Backend Engineer, ML Engineer |
 | DevOps Engineer | CI/CD, infrastructure, observability | All deployment and operations |
 | QA Engineer | Test strategy, test cases, defect reports, release sign-off | Project Manager |
-| Code Reviewer | Code review feedback | Software Engineer, Frontend Engineer, Backend Engineer |
+| Code Reviewer | Code review feedback | Software Engineer, Frontend Engineer, Backend Engineer, ML Engineer |
 | Documentation Engineer | User docs, API docs, runbooks | All consumers |
 | Automation Agent | Automated scripts, CI steps, tooling | DevOps Engineer |
 | Project Manager | Sprint plan, risk register, status report | Product Manager, stakeholders |
 | Forward Deployed Engineer | Customer implementation, integration, feedback | Product Manager, Backend Engineer |
+
+Use the agent selection guide at `docs/architecture/agent-selection-guide.md` to decide which engineering agent to activate for implementation tasks.
 
 ---
 

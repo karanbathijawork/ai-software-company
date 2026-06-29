@@ -30,15 +30,26 @@ The orchestrator should:
 - create an intake package
 - hand off to the Product Manager
 
-## 4. Let Claude Code execute
+## 4. Use the AI Orchestrator prompt
 
-Use the prompt in templates/one_input_product_prompt.md as the main instruction.
+Open `templates/repeatable-one-input-prompt.md` and update the `Product idea:` line with your own request.
 
-That prompt tells Claude Code to:
-- act as the orchestrator
+Have the `ai_orchestrator` agent read this file and execute the workflow. That prompt tells the orchestrator to:
+- perform the intake process
 - create the intake package
 - define the MVP
+- produce implementation tasks
 - build the first working version
+
+## 5. Use the repository as a template
+
+For every new product or project idea, clone this repository and reuse the repo templates.
+
+That ensures each product starts with the same workflow, guidance, and quality checks.
+
+## 6. Start with the smallest useful version
+
+Do not try to build everything at once.
 
 ## 5. Start with the smallest useful version
 

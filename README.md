@@ -22,10 +22,13 @@ This repository now includes:
 
 ## Recommended usage
 
-1. Start with a product idea.
-2. Use the orchestrator workflow to create an intake package.
-3. Hand off to the Product Manager to define the MVP.
-4. Continue through design, implementation, QA, and release.
+1. Clone this repository for every new product or project idea.
+2. Start with a single product idea.
+3. Use the orchestrator workflow to create an intake package.
+4. Hand off to the Product Manager to define the MVP.
+5. Continue through design, implementation, QA, and release.
+
+> Use this repository as a reusable template for every new product build.
 
 ## Core workflow
 
